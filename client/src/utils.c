@@ -38,7 +38,7 @@ int crear_conexion(char *ip, char* puerto)
 
 	if(err==-1){
 		printf("error");
-	}else{printf("Se conecto exitosamente al server")}
+	}else{printf("Se conecto exitosamente al server");}
 
 	freeaddrinfo(server_info);
 

@@ -66,7 +66,7 @@ t_log* iniciar_logger(void)
 	t_log* nuevo_logger;
 	nuevo_logger = log_create("tp0.log", "Instancia logger", true, LOG_LEVEL_INFO);
 
-	if(logger==NULL){
+	if(nuevo_logger==NULL){
 		printf("NO se puede crear el logger \n");
 		exit(-1);
 	}
