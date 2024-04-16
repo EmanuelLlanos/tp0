@@ -3,6 +3,18 @@
 		"debug.onTaskErrors": "abort",
 		"files.associations": {
 			"*.h": "c",
+			"array": "c",
+			"*.tcc": "c",
+			"deque": "c",
+			"string": "c",
+			"unordered_map": "c",
+			"vector": "c",
+			"iterator": "c",
+			"string_view": "c",
+			"algorithm": "c",
+			"memory": "c",
+			"initializer_list": "c",
+			"numeric": "c"
 		},
 		"C_Cpp.errorSquiggles": "disabled",
 	},
